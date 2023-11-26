@@ -1,0 +1,13 @@
+.footercontainer{
+    height: auto;
+    width: 100%;
+    padding: 60px 0px;
+    background-color: #ff0841;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footerinfo{
+    color: antiquewhite;
+
+}

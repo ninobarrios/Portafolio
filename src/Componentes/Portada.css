@@ -1,0 +1,340 @@
+
+.portada {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('fondoportada.jpg');
+    cursor: default; /* Ocultar el cursor */
+    object-fit: contain; /* Ajusta la imagen al contenedor manteniendo su relación de aspecto */
+    max-width: 100vw; /* La imagen no puede ser más ancha que la pantalla */
+    max-height: 100vh;
+}
+
+.portadacontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+}
+
+.superior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle {
+    position: absolute;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #02031a;
+    margin: 50px;
+    box-shadow: 0 0 10px #ef7443;
+
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    z-index: 1;
+    /* Asegura que la imagen esté sobre el borde giratorio */
+}
+.circle:hover{
+    transform: scale(1.1);
+
+}
+
+.inferior {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.name {
+    font-size: 100px;
+    margin-top: 180px;
+    font-weight: 900;
+    line-height: 1.2;
+    color: #ffffff;
+}
+
+
+.areadesarrollo {
+    color: #ffffff;
+    font-size: 30px;
+    margin-top: 0px;
+    line-height: 0.5;
+    font-weight: 700;
+    line-height: 0.5;
+    
+}
+
+.barrios {
+    color: #ef7443;
+}
+
+.division {
+    width: 50%;
+    height: 5px;
+    box-shadow: 0 0 10px #ef7443;
+
+    background-color: #ef7443;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse s infinite;
+    /* Nombre de la animación, duración, iteración */
+
+    /* Agrega este bloque para mejorar la apariencia de la animación */
+    transition: background-color 1s ease-in-out;
+}
+
+/* Definición de la animación */
+@keyframes pulse {
+
+    0%,
+    100% {
+        width: 60%;
+        /* Ancho inicial y final */
+        background-color: #ff0841;
+        /* Color inicial y final */
+    }
+
+    50% {
+        width: 70%;
+        /* Ancho en el medio de la animación */
+        background-color: #02031a;
+        /* Nuevo color en el medio de la animación */
+    }
+}
+
+
+.descripcion {
+    width: 40%;
+    font-size: 16px;
+    padding: 20px 0px;
+    color: #ffffff;
+    font-weight: 500;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.05); /* Fondo con opacidad para que se vea el desenfoque de la imagen */
+    backdrop-filter: blur(10px); /* Ajusta el valor de blur según el nivel de desenfoque deseado */
+
+}
+
+
+p {
+    font-size: 20px;
+    margin: 5px 400px;
+    text-align: center;
+    color: #000000;
+    font-family: sans-serif;
+}
+
+.organizar-items {
+    display: flex;
+    margin-top: 25px;
+}
+
+.palabras-clave {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    padding: 10px;
+    height: 15px;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 10px;
+    font-weight: 700;
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo con opacidad para que se vea el desenfoque de la imagen */
+    backdrop-filter: blur(20px); /* Ajusta el valor de blur según el nivel de desenfoque deseado */
+    
+}
+
+@keyframes rotateAndBackgroundChange {
+
+    0%,
+    100% {
+        transform: rotate(0);
+        background-color: #000000;
+    }
+
+    25% {
+        transform: rotate(0);
+        background-color: #ffffff;
+    }
+
+    50% {
+        transform: rotate(0);
+        background-color: #000000;
+    }
+
+    75% {
+        transform: rotate(50deg);
+        background-color: #ffffff;
+    }
+}
+
+.palabras-clave:hover {
+    animation: rotateAndBackgroundChange 1s forwards;
+}
+
+@media (max-width: 1025px) {
+    .portadacontent {
+        flex-direction: row;
+        width: 800px;
+    }
+
+    .superior {
+        width: 30%;
+        margin-top: 180px;
+    }
+
+    .inferior {
+        width: 70%;
+        text-align: left;
+    }
+
+    .portada {
+        height: 100vh;
+        padding: 0px;
+    }
+
+    .circle {
+        position: static;
+        left: 80px;
+        top: 220px;
+    }
+
+    .name {
+        width: 100%;
+        font-size: 60px;
+        text-align: left;
+        margin-right: 0px;
+        padding-right: 0px;
+        margin-top: 180px;
+
+    }
+
+    .areadesarrollo {
+        font-size: 30px;
+        width: 100%;
+        padding: 0px;
+        align-items: left;
+        margin-bottom: 5px;
+    }
+
+    .division {
+        width: 60%;
+        height: 5px;
+        background-color: #ff0841;
+        margin: 10px 0px;
+        margin-right: auto;
+    }
+
+    .descripcion {
+        width: auto;
+        padding: 0px;
+        line-height: 1;
+        text-align: left;
+    }
+
+    .organizar-items {
+        margin-top: 30px;
+    }
+
+    .palabras-clave {
+        margin: 0px 25px;
+        margin-bottom: 250px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .portadacontent {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .circle {
+        margin: 0px;
+        left: auto;
+        top: 150px;
+        position: absolute;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+    }
+
+    .name {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .inferior {
+        padding-top: 200px;
+        text-align: center;
+    }
+
+    .descripcion {
+        text-align: center;
+        width: 80%;
+    }
+
+    .division {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 430px) {
+    .circle{
+        top: 130px;
+    }
+    .division{
+        width: 80vw;
+    }
+    .descripcion{
+        width: 80vw;
+    }
+    .inferior{
+        padding: 10px;
+    }
+    .name{
+        font-size: 40px;
+        margin-top: 45px;
+    }
+    .organizar-items{
+        width: 80vw;
+        margin:0px 0px;    
+        padding: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .palabras-clave{
+        margin-bottom: 0px;
+        margin: 20px 10px;
+    }
+}
