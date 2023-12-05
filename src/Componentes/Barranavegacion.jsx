@@ -28,7 +28,7 @@ function Barradenavegacion() {
 
             <div className='opciones'>
                 <a href='#Portada'>Inicio</a>
-                <a href='#Educacion'>Educacion</a>
+                <a href='#Educacion'>Formacion</a>
                 <a href='#Habilidades'>Habilidades</a>
                 <a href='#Proyectos'>Proyectos</a>
                 <a href='#Contacto'>Contacto</a>

@@ -16,9 +16,7 @@ function Habilidades() {
                 Habilidades
             </div>
             <div className='skills-container'>
-
                 <div className='box-skills'>
-
                     <div className='cabecera'>
                         <img className='cabecera-propiedades' src={react} alt="" />
                     </div>

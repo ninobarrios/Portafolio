@@ -1,7 +1,11 @@
 .proyectos-section {
     width: 100%;
-    height: auto;
+    height: 100vh;
     background-color: #021b2b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .tituloproyectos {
@@ -23,8 +27,8 @@
 }
 
 .proyectos-box {
-    width: 250px;
-    height: 100%;
+    width: 400px;
+    height: 350px;
     margin: 25px;
     box-shadow: 0 0 10px aqua;
     border-radius: 5px;
@@ -38,8 +42,8 @@
 /**/
 .cabecera-proyectos {
     position: relative;
-    height: 150px;
-    max-width: 100%;
+    height: 100%;
+    width: 100%;
     display: block;
     border-radius: 5px 5px 0 0;
     overflow: hidden;
@@ -48,6 +52,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .cabecera-proyectos::before {
@@ -63,13 +68,26 @@
     transition: opacity 0.2s ;
     /* Aplicamos la transición al seudoelemento */
 }
-
-.linkbtn {
+.descripcionproyecto{
     position: absolute;
-    z-index: 1;
     display: flex;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
     justify-content: center;
+    padding: 10px 10px;
+    border-radius: 5px;
+    transition: opacity 0.6s ease;
+    opacity: 0;
+    height: 150px;
+    color: #ffffff;
+    line-height: 1;
+    font-size: 30px;
+    top: 10%;
+    text-align: center;
+}
+.linkbtn {
+    position: absolute;
     height: auto;
     width: auto;
     padding: 5px 20px;
@@ -81,7 +99,7 @@
     font-weight: bold;
     background-color: #ff0841;
     text-decoration: none; /* Quita el subrayado del enlace */
-
+    bottom: 30%;
 }
 
 .cabecera-proyectos:hover::before {
@@ -92,7 +110,9 @@
 .cabecera-proyectos:hover .linkbtn {
     opacity: 1;
 }
-
+.cabecera-proyectos:hover .descripcionproyecto{
+    opacity: 1;
+}
 /**/
 
 .info-proyectos {
@@ -137,14 +157,24 @@
     color: #ffffff;
     background-color: #ff0841;
     width: auto;
-    padding: 0px 7px;
-    margin: 3px;
+    padding: 10px 20px;
+    margin: 10px ;
     display: flex;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0px 0px 10px #d60b0b ;
     font-weight: bold;
     height: 100;
 }
+.tecnologias:hover{
+    transition: 0.5s;
+    transform: scale(1.4, 1.4);
+    box-shadow: 0px 0px 10px aqua ;
 
-
+}
+@media (max-width: 1200px) {
+    .proyectos-section{
+        height: auto;
+        padding-top: 100px;
+    }
+}
