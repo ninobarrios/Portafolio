@@ -45,7 +45,7 @@ function Proyectos() {
                         <div className='descripcionproyecto'>
                             Clustering sector agropecuario del Perú 
                         </div>
-                        <a href="https://www.ejemplo.com" className='linkbtn'>
+                        <a href="https://app.powerbi.com/groups/me/list?experience=power-bi" className='linkbtn'>
                             Visitar Pagina Web
                         </a>
                     </div>

@@ -185,7 +185,9 @@ p {
 }
 
 .palabras-clave:hover {
-    animation: rotateAndBackgroundChange 1s forwards;
+    transform: scale(1.2); /* Escala final (ajusta según tus necesidades) */
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Estilo de sombra inicial */
+
 }
 
 @media (max-width: 1025px) {

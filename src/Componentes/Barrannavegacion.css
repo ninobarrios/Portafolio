@@ -109,6 +109,17 @@
 .active{
     background-color: #021b2b;
 }
+.opciones .contactbtn{
+    background-color: #04ce47;
+    border-radius: 15px;
+    border: solid 0px transparent;
+    height: 35px;
+}
+.opciones .contactbtn:hover{
+    background-color: #00c7bd;
+    color: #000000;
+}
+
 @media (max-width: 1025px) {
     .opciones {
         position: absolute;

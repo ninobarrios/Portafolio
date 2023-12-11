@@ -59,11 +59,28 @@ function Portada() {
                             SQL
                         </div>
                     </div>
+                    <div className='palabras-clave'>
+                        <div className='textoclave'>
+                            Python
+                        </div>
+                    </div>
+                    <div className='palabras-clave'>
+                        <div className='textoclave'>
+                            Django
+                        </div>
+                    </div>
+                    <div className='palabras-clave'>
+                        <div className='textoclave'>
+                            .NET
+                        </div>
+                    </div>
+                    <div className='palabras-clave'>
+                        <div className='textoclave'>
+                            Ciencia de datos
+                        </div>
+                    </div>
                 </div>
         </section>
-
-
-
     )
 }
 

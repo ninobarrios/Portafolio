@@ -5,7 +5,7 @@ function Footer() {
     return (
         <section className='footercontainer'>
             <div className='footerinfo'>
-                ©copyright
+                ©Nino Barrios
             </div>
         </section>
     );

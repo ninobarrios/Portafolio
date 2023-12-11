@@ -20,18 +20,12 @@ function Barradenavegacion() {
                 <div className='equis' id="close-icon"></div>
             </label>
 
-
-
-
-
-
-
             <div className='opciones'>
                 <a href='#Portada'>Inicio</a>
                 <a href='#Educacion'>Formacion</a>
                 <a href='#Habilidades'>Habilidades</a>
                 <a href='#Proyectos'>Proyectos</a>
-                <a href='#Contacto'>Contacto</a>
+                <a className='contactbtn' href='#Contacto'>Enviar un mensaje</a>
             </div>
         </div>
     )
