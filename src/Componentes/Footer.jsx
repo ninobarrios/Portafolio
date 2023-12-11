@@ -5,10 +5,26 @@ function Footer() {
     return (
         <section className='footercontainer'>
             <div className='footerinfo'>
-                ©Creado y diseñado por Nino Barrios
+                ©copyright
             </div>
         </section>
     );
 }
 
 export default Footer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

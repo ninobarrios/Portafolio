@@ -1,18 +1,18 @@
 
-.portada {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-    background-image: url('fondoportada.jpg');
-    cursor: default; /* Ocultar el cursor */
-    object-fit: contain; /* Ajusta la imagen al contenedor manteniendo su relación de aspecto */
-    max-width: 100vw; /* La imagen no puede ser más ancha que la pantalla */
-    max-height: 100vh;
-}
+    .portada {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 100vh;
+        width: 100vw;
+        background-image: url('fondoportada.jpg');
+        cursor: default; /* Ocultar el cursor */
+        object-fit: contain; /* Ajustar al contenedor  */
+        max-width: 100vw; 
+        max-height: 100vh;
+    }
 
 .portadacontent {
     display: flex;
@@ -88,16 +88,12 @@
     width: 50%;
     height: 5px;
     box-shadow: 0 0 10px #ef7443;
-
     background-color: #ef7443;
     margin: 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     animation: pulse s infinite;
-    /* Nombre de la animación, duración, iteración */
-
-    /* Agrega este bloque para mejorar la apariencia de la animación */
     transition: background-color 1s ease-in-out;
 }
 
@@ -309,7 +305,7 @@ p {
 }
 @media (max-width: 430px) {
     .circle{
-        top: 130px;
+        top: 130px; /*dsfsdfsdf*/
     }
     .division{
         width: 80vw;

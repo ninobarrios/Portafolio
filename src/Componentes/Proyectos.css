@@ -1,6 +1,6 @@
 .proyectos-section {
     width: 100%;
-    height: 100vh;
+    height: 100;
     background-color: #021b2b;
     display: flex;
     align-items: center;
@@ -29,7 +29,7 @@
 .proyectos-box {
     width: 400px;
     height: 350px;
-    margin: 25px;
+    margin: 45px;
     box-shadow: 0 0 10px aqua;
     border-radius: 5px;
 }
@@ -157,7 +157,7 @@
     color: #ffffff;
     background-color: #ff0841;
     width: auto;
-    padding: 10px 20px;
+    padding: 5px 8px;
     margin: 10px ;
     display: flex;
     justify-content: center;
