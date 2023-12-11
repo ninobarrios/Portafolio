@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Componentes/Proyectos.css'
-import clustering from '../Componentes/clustering.JPG'
+import cluster from '../Componentes/cluster.JPG'
 import logoextension from '../Componentes/logo-extension.png'
 function Proyectos() {
     return (
@@ -8,7 +8,7 @@ function Proyectos() {
             <h1 className='tituloproyectos'>Proyectos</h1>
             <div className='proyectos-container'>
                 <div className='proyectos-box'>
-                    <div className='cabecera-proyectos' style={{ backgroundImage: `url('https://apuestalegal.pe/wp-content/uploads/2023/05/estadisticas-deportivas-apuestas-peru.jpg')` }}>
+                    <div className='cabecera-proyectos' style={{ backgroundImage: `url('https://cienciasdeportivas.com/wp-content/uploads/ECD038.jpg')` }}>
                         <div className='descripcionproyecto'>
                             Estadisticas deportivas Liga 1,
                             comparaciones, analisis e historial
@@ -41,7 +41,7 @@ function Proyectos() {
                 </div>
 
                 <div className='proyectos-box'>
-                    <div className='cabecera-proyectos' style={{ backgroundImage: `url(${clustering})` }}>
+                    <div className='cabecera-proyectos' style={{ backgroundImage: `url(${cluster})` }}>
                         <div className='descripcionproyecto'>
                             Clustering sector agropecuario del Perú 
                         </div>
@@ -53,6 +53,7 @@ function Proyectos() {
                         <div className='tecnologias'>Python</div>
                         <div className='tecnologias'>Data Science</div>
                         <div className='tecnologias'>Power BI</div>
+                        
                     </div>
                 </div>
 
