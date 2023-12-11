@@ -8,7 +8,7 @@ import Barradenavegacion from './Componentes/Barranavegacion.jsx';
 function App() {
     return (
         <div>
-            <BrowserRouter basename="/prueba34">
+            <BrowserRouter basename="/Portafolio">
                 <Barradenavegacion />
                 <Routes>
                     <Route exact path="/" element={<Inicio />} />
