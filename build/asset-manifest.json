@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/prueba34/static/css/main.3f731bb7.css",
-    "main.js": "/prueba34/static/js/main.66950096.js",
-    "static/js/787.95b45e4e.chunk.js": "/prueba34/static/js/787.95b45e4e.chunk.js",
-    "static/media/logo-extension.png": "/prueba34/static/media/logo-extension.d7bd40ffa3e85a33f513.png",
-    "static/media/angular.png": "/prueba34/static/media/angular.d2afb7f752334453b815.png",
-    "static/media/nodejs.png": "/prueba34/static/media/nodejs.fec8553a062eb1c472dd.png",
-    "static/media/fotoNB.png": "/prueba34/static/media/fotoNB.e1a7be2ce31be81646b9.png",
-    "static/media/cluster.JPG": "/prueba34/static/media/cluster.6c7bb8b391482b25700f.JPG",
-    "static/media/fondoportada.jpg": "/prueba34/static/media/fondoportada.f33a88c3a1e981c26226.jpg",
-    "static/media/react.png": "/prueba34/static/media/react.e7cd168a2cafa11e81cd.png",
-    "static/media/Ucsm-escudo.png": "/prueba34/static/media/Ucsm-escudo.e8b96c0f28359f981d48.png",
-    "static/media/correo-electronico.png": "/prueba34/static/media/correo-electronico.cd67ef07c549f0c36a51.png",
-    "static/media/github.png": "/prueba34/static/media/github.22cfdd1cba253783ce51.png",
-    "static/media/linkedin.png": "/prueba34/static/media/linkedin.032cf8a63be2f0f4d425.png",
-    "static/media/facebook.png": "/prueba34/static/media/facebook.bfd1cfff9f9521198b26.png",
-    "static/media/vue.JPG": "/prueba34/static/media/vue.46c5641d384a49fad320.JPG",
-    "index.html": "/prueba34/index.html",
-    "main.3f731bb7.css.map": "/prueba34/static/css/main.3f731bb7.css.map",
-    "main.66950096.js.map": "/prueba34/static/js/main.66950096.js.map",
-    "787.95b45e4e.chunk.js.map": "/prueba34/static/js/787.95b45e4e.chunk.js.map"
+    "main.css": "/Portafolio/static/css/main.4eeadc9d.css",
+    "main.js": "/Portafolio/static/js/main.9c5a11dc.js",
+    "static/js/787.95b45e4e.chunk.js": "/Portafolio/static/js/787.95b45e4e.chunk.js",
+    "static/media/logo-extension.png": "/Portafolio/static/media/logo-extension.d7bd40ffa3e85a33f513.png",
+    "static/media/angular.png": "/Portafolio/static/media/angular.d2afb7f752334453b815.png",
+    "static/media/nodejs.png": "/Portafolio/static/media/nodejs.fec8553a062eb1c472dd.png",
+    "static/media/fotoNB.png": "/Portafolio/static/media/fotoNB.e1a7be2ce31be81646b9.png",
+    "static/media/cluster.JPG": "/Portafolio/static/media/cluster.6c7bb8b391482b25700f.JPG",
+    "static/media/fondoportada.jpg": "/Portafolio/static/media/fondoportada.f33a88c3a1e981c26226.jpg",
+    "static/media/react.png": "/Portafolio/static/media/react.e7cd168a2cafa11e81cd.png",
+    "static/media/Ucsm-escudo.png": "/Portafolio/static/media/Ucsm-escudo.e8b96c0f28359f981d48.png",
+    "static/media/correo-electronico.png": "/Portafolio/static/media/correo-electronico.cd67ef07c549f0c36a51.png",
+    "static/media/github.png": "/Portafolio/static/media/github.22cfdd1cba253783ce51.png",
+    "static/media/linkedin.png": "/Portafolio/static/media/linkedin.032cf8a63be2f0f4d425.png",
+    "static/media/facebook.png": "/Portafolio/static/media/facebook.bfd1cfff9f9521198b26.png",
+    "static/media/vue.JPG": "/Portafolio/static/media/vue.46c5641d384a49fad320.JPG",
+    "index.html": "/Portafolio/index.html",
+    "main.4eeadc9d.css.map": "/Portafolio/static/css/main.4eeadc9d.css.map",
+    "main.9c5a11dc.js.map": "/Portafolio/static/js/main.9c5a11dc.js.map",
+    "787.95b45e4e.chunk.js.map": "/Portafolio/static/js/787.95b45e4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3f731bb7.css",
-    "static/js/main.66950096.js"
+    "static/css/main.4eeadc9d.css",
+    "static/js/main.9c5a11dc.js"
   ]
 }

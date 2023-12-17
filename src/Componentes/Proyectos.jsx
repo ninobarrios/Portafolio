@@ -14,7 +14,7 @@ function Proyectos() {
                             comparaciones, analisis e historial
                             de los resultados de la competicion.
                         </div>
-                        <a href="https://ninobarrios.github.io/Pronosticos/" className='linkbtn'>
+                        <a href="https://ninobarrios.github.io/Analisis_Deportivo/" className='linkbtn'>
                             Visitar Pagina Web
                         </a>
                     </div>
