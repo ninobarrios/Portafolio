@@ -25,12 +25,16 @@ function Proyectos() {
                         <div className='tecnologias'>SQL</div>
                     </div>
                 </div>
+
+
+
+
                 <div className='proyectos-box'>
                     <div className='cabecera-proyectos' style={{ backgroundImage: `url('https://vilmanunez.com/wp-content/uploads/2019/02/editor-de-videos.png'` }}>
                         <div className='descripcionproyecto'>
                             Kit de herramientas para diseño
                         </div>
-                        <a href="https://www.ejemplo.com" className='linkbtn'>
+                        <a href="https://ninobarrios.github.io/Kit/" className='linkbtn'>
                             Visitar Pagina Web
                         </a>
                     </div>
@@ -39,6 +43,9 @@ function Proyectos() {
                         <div className='tecnologias'>Django</div>
                     </div>
                 </div>
+
+
+
 
                 <div className='proyectos-box'>
                     <div className='cabecera-proyectos' style={{ backgroundImage: `url(${cluster})` }}>
