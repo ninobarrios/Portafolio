@@ -178,3 +178,15 @@
         padding-top: 100px;
     }
 }
+@media (max-width: 400px) {
+    .proyectos-box{
+        width: 250px;
+        height: 200px;
+    }
+    .tecnologias{
+        margin: 5px;
+    }
+    .boxtecnologias{
+        
+    }
+}

@@ -23,6 +23,8 @@ function Proyectos() {
                         <div className='tecnologias'>Node JS</div>
                         <div className='tecnologias'>Express</div>
                         <div className='tecnologias'>SQL</div>
+                        <div className='tecnologias'>Apis</div>
+
                     </div>
                 </div>
 

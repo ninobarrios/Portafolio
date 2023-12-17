@@ -5,6 +5,7 @@ import github from '../Componentes/github.png';
 import linkedin from '../Componentes/linkedin.png';
 import correo from '../Componentes/correo-electronico.png';
 import emailjs from '@emailjs/browser';
+import whatsapp from '../Componentes/whatsapp.png'
 
 function Contacto() {
     const [formData, setFormData] = useState({
@@ -111,6 +112,8 @@ function Contacto() {
                 <a href='https://www.github.com' title='GitHub'><img src={github} className='github' alt="" /></a>
                 <a href='https://www.linkedin.com' title='LinkedIn'><img src={linkedin} className='linkedin' alt="" /></a>
                 <a href='mailto:nino.barrios@ucsm.edu.pe' title='Correo' ><img src={correo} className='correo' alt="" /></a>
+                <a href='https://wa.me/51965750922' title='WhatsApp'><img src={whatsapp} className='whatsapp' alt="" /></a>
+
             </div>
         </section>
     )
