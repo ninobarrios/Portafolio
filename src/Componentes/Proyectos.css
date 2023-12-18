@@ -186,7 +186,21 @@
     .tecnologias{
         margin: 5px;
     }
-    .boxtecnologias{
-        
+    
+    .proyectos-container{
+        margin-bottom: 50px;
     }
+    .tituloproyectos{
+        padding-top: 0px;
+    }
+
+    .descripcionproyecto{
+        font-size: 20px;
+    }
+    .linkbtn{
+        position: relative;
+        margin-bottom: 5px;
+        align-items: flex-end;
+    }
+    
 }

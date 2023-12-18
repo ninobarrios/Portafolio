@@ -307,13 +307,13 @@ p {
 }
 @media (max-width: 400px) {
     .circle{
-        top: 130px; /*dsfsdfsdf*/
+        top: 85px; /*dsfsdfsdf*/
     }
     .division{
         width: 80vw;
     }
     .descripcion{
-        width: 80vw;
+        width: 95vw;
     }
     .inferior{
         padding: 10px;
@@ -323,7 +323,7 @@ p {
         margin-top: 45px;
     }
     .organizar-items{
-        width: 80vw;
+        width: 95vw;
         margin:0px 0px;    
         padding: 0px;
         display: flex;
