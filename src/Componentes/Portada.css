@@ -285,7 +285,9 @@ p {
         text-align: center;
         margin: 0px;
     }
-
+    .superior{
+        margin-top: 0px;
+    }
     .inferior {
         padding-top: 200px;
         text-align: center;
@@ -293,7 +295,7 @@ p {
 
     .descripcion {
         text-align: center;
-        width: 80%;
+        width: 90vw;
     }
 
     .division {
@@ -303,6 +305,20 @@ p {
         align-items: center;
         text-align: center;
         margin-right: 0px;
+    }
+    .organizar-items{
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+        margin-top: 10px;
+        padding: 0px;
+        
+    }
+    .palabras-clave{
+        margin: 10px 10px;
     }
 }
 @media (max-width: 400px) {
