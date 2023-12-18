@@ -38,7 +38,7 @@
     overflow: hidden;
     background-color: #02031a;
     margin: 50px;
-    box-shadow: 0 0 10px #ef7443;
+    box-shadow: 0 0 10px #ff0841;
 
 }
 
@@ -81,14 +81,14 @@
 }
 
 .barrios {
-    color: #ef7443;
+    color: #ff0841;
 }
 
 .division {
     width: 50%;
     height: 5px;
     box-shadow: 0 0 10px #ef7443;
-    background-color: #ef7443;
+    background-color: #ff0841;
     margin: 10px 0;
     display: flex;
     align-items: center;
