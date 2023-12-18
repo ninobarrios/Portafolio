@@ -113,7 +113,13 @@
     background-color: #04ce47;
     border-radius: 15px;
     border: solid 0px transparent;
-    height: 35px;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
 }
 .opciones .contactbtn:hover{
     background-color: #00c7bd;

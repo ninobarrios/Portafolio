@@ -252,11 +252,15 @@ p {
 
     .organizar-items {
         margin-top: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
     }
 
     .palabras-clave {
         margin: 0px 25px;
-        margin-bottom: 250px;
+        margin-bottom: 30px;
     }
 
 }

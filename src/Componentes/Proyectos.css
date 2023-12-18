@@ -150,7 +150,7 @@
     justify-content: center;
     flex-wrap: wrap;
     height: auto;
-    margin: 10px 0px;
+    margin: 0px 0px;
 }
 .tecnologias{
     font-size: 12px;
@@ -189,7 +189,9 @@
     }
     .boxtecnologias{
         padding-bottom: 15px;
-
+    }
+    .tecnologias{
+        margin: 10px 5px;
     }
 }
 
