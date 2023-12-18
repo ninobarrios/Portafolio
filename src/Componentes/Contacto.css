@@ -92,9 +92,23 @@
 .correo:hover{
     transform: scale(1.5);
 }
+@media (max-width: 572px) {
+    .form{
+        width: 60vw;
+    }
+    .redessociales{
+        width: 60vw;
+
+    }
+    .redessociales img{
+        margin: 10px 15px;
+        padding: 0px;
+
+    }
+}
 @media (max-width: 400px) {
     .form{
-        width: auto;
+        width: 350px;
     }
     .redessociales{
         width: 60%;
