@@ -36,7 +36,7 @@ function Proyectos() {
                         <div className='descripcionproyecto'>
                             Kit de herramientas para diseño
                         </div>
-                        <a href="https://ninobarrios.github.io/Kit/" className='linkbtn'>
+                        <a href="https://github.com/ninobarrios/Herramientasdisenho.git" className='linkbtn'>
                             Visitar Pagina Web
                         </a>
                     </div>
